@@ -2,6 +2,11 @@
     --branding-color: gainsboro;
 }
 
+.navbar-brand {
+    font-family: 'Unica One', cursive;
+    color: darkslategrey;
+}
+
 
 h1 {
     color: gainsboro;
@@ -13,6 +18,7 @@ h1 {
 p {
     font-weight: normal;
     font-family: 'STIX Two Math', serif;
+    line-height: 1.5;
 }
 
 .hero {
@@ -44,4 +50,26 @@ color: gainsboro;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding-outline {
+   color: var(--branding-color);
+   border: 1px solid;
+   border-radius: 4px;
+   font-size: 18px;
+   line-height: 27px;
+   padding: 15px 30px;
+}
+
+.container-mb-2 {
+    text-align: center;
+}
+
+i {
+    color: darkslategray;
+    padding: 25px 0;
+}
+
+.email-link {
+    color: darkslategray;
 }
