@@ -1,3 +1,47 @@
-body {
-    background: black;
+:root {
+    --branding-color: gainsboro;
+}
+
+
+h1 {
+    color: gainsboro;
+    font-weight: bold;
+    font-size: 85px;
+    font-family: 'Unica One', cursive;
+}
+
+p {
+    font-weight: normal;
+    font-family: 'STIX Two Math', serif;
+}
+
+.hero {
+    background: darkslategrey;
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.hero p {
+    font-family: 'STIX Two Math', serif;
+font-size: 36px;
+font-weight: bold;
+margin: 0;
+color: gainsboro;
+}
+
+.hero h2 {
+    font-family: 'STIX Two Math', serif;
+    font-weight: normal;
+    color: var(--branding-color);
+    line-height: 2;
+    font-size: 24px;
+}
+
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: black;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
