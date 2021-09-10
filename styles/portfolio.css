@@ -1,75 +1,93 @@
 :root {
-    --branding-color: gainsboro;
+  --branding-color: gainsboro;
 }
 
 .navbar-brand {
-    font-family: 'Unica One', cursive;
-    color: darkslategrey;
+  font-family: "Unica One", cursive;
+  color: darkslategrey;
 }
 
-
 h1 {
-    color: gainsboro;
-    font-weight: bold;
-    font-size: 85px;
-    font-family: 'Unica One', cursive;
+  color: gainsboro;
+  font-weight: bold;
+  font-size: 85px;
+  font-family: "Unica One", cursive;
 }
 
 p {
-    font-weight: normal;
-    font-family: 'STIX Two Math', serif;
-    line-height: 1.5;
+  font-weight: normal;
+  font-family: "STIX Two Math", serif;
+  line-height: 1.5;
 }
 
 .hero {
-    background: darkslategrey;
-    text-align: center;
-    padding: 160px 20px;
+  background: darkslategrey;
+  text-align: center;
+  padding: 160px 20px;
 }
 
 .hero p {
-    font-family: 'STIX Two Math', serif;
-font-size: 36px;
-font-weight: bold;
-margin: 0;
-color: gainsboro;
+  font-family: "STIX Two Math", serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: gainsboro;
 }
 
 .hero h2 {
-    font-family: 'STIX Two Math', serif;
-    font-weight: normal;
-    color: var(--branding-color);
-    line-height: 2;
-    font-size: 24px;
+  font-family: "STIX Two Math", serif;
+  font-weight: normal;
+  color: var(--branding-color);
+  line-height: 2;
+  font-size: 24px;
+}
+
+.about-section {
+  padding: 160px 20px;
+  text-align: center;
+  padding: 0;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .btn-branding {
-    background: var(--branding-color);
-    border-radius: 4px;
-    color: black;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .btn-branding-outline {
-   color: var(--branding-color);
-   border: 1px solid;
-   border-radius: 4px;
-   font-size: 18px;
-   line-height: 27px;
-   padding: 15px 30px;
+  color: var(--branding-color);
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .container-mb-2 {
-    text-align: center;
+  text-align: center;
 }
 
 i {
-    color: darkslategray;
-    padding: 25px 0;
+  color: darkslategray;
+  padding: 25px 0;
 }
 
 .email-link {
-    color: darkslategray;
+  color: darkslategray;
 }
